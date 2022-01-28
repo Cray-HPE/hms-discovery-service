@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/Cray-HPE/hms-discovery-service/pkg/algorithmicmac"
-	base "stash.us.cray.com/HMS/hms-base"
+	base "github.com/Cray-HPE/hms-base"
 )
 
 func main() {

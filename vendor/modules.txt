@@ -1,10 +1,18 @@
+# github.com/Cray-HPE/hms-base v1.15.1
+## explicit
+github.com/Cray-HPE/hms-base
+# github.com/Cray-HPE/hms-certs v1.3.2
+github.com/Cray-HPE/hms-certs/pkg/hms_certs
+# github.com/Cray-HPE/hms-securestorage v1.12.2
+github.com/Cray-HPE/hms-securestorage
+# github.com/Cray-HPE/hms-smd v1.41.0
+## explicit
+github.com/Cray-HPE/hms-smd/pkg/redfish
+github.com/Cray-HPE/hms-smd/pkg/sm
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
 # github.com/fsnotify/fsnotify v1.4.9
 github.com/fsnotify/fsnotify
-# github.com/geoffgarside/ber v1.1.0
-## explicit
-github.com/geoffgarside/ber
 # github.com/golang/snappy v0.0.1
 github.com/golang/snappy
 # github.com/hashicorp/errwrap v1.0.0
@@ -13,7 +21,7 @@ github.com/hashicorp/errwrap
 github.com/hashicorp/go-cleanhttp
 # github.com/hashicorp/go-multierror v1.1.0
 github.com/hashicorp/go-multierror
-# github.com/hashicorp/go-retryablehttp v0.6.7
+# github.com/hashicorp/go-retryablehttp v0.7.0
 ## explicit
 github.com/hashicorp/go-retryablehttp
 # github.com/hashicorp/go-rootcerts v1.0.1
@@ -39,15 +47,9 @@ github.com/hashicorp/vault/sdk/helper/hclutil
 github.com/hashicorp/vault/sdk/helper/jsonutil
 github.com/hashicorp/vault/sdk/helper/parseutil
 github.com/hashicorp/vault/sdk/helper/strutil
-# github.com/k-sone/snmpgo v3.2.0+incompatible
-## explicit
-github.com/k-sone/snmpgo
-# github.com/konsorten/go-windows-terminal-sequences v1.0.3
-github.com/konsorten/go-windows-terminal-sequences
 # github.com/mitchellh/go-homedir v1.1.0
 github.com/mitchellh/go-homedir
 # github.com/mitchellh/mapstructure v1.3.0
-## explicit
 github.com/mitchellh/mapstructure
 # github.com/pierrec/lz4 v2.4.1+incompatible
 github.com/pierrec/lz4
@@ -56,25 +58,14 @@ github.com/pierrec/lz4/internal/xxh32
 github.com/pmezard/go-difflib/difflib
 # github.com/ryanuber/go-glob v1.0.0
 github.com/ryanuber/go-glob
-# github.com/sirupsen/logrus v1.6.0
+# github.com/sirupsen/logrus v1.8.1
+## explicit
 github.com/sirupsen/logrus
 # github.com/stretchr/testify v1.7.0
 ## explicit
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/require
 github.com/stretchr/testify/suite
-# go.uber.org/atomic v1.7.0
-go.uber.org/atomic
-# go.uber.org/multierr v1.6.0
-go.uber.org/multierr
-# go.uber.org/zap v1.18.1
-## explicit
-go.uber.org/zap
-go.uber.org/zap/buffer
-go.uber.org/zap/internal/bufferpool
-go.uber.org/zap/internal/color
-go.uber.org/zap/internal/exit
-go.uber.org/zap/zapcore
 # golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
 golang.org/x/crypto/ed25519
 golang.org/x/crypto/ed25519/internal/edwards25519
@@ -87,6 +78,7 @@ golang.org/x/net/idna
 # golang.org/x/sys v0.0.0-20200817155316-9781c653f443
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
+golang.org/x/sys/windows
 # golang.org/x/text v0.3.3
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
@@ -94,27 +86,11 @@ golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 golang.org/x/time/rate
-# gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
-## explicit
 # gopkg.in/square/go-jose.v2 v2.3.1
 gopkg.in/square/go-jose.v2
 gopkg.in/square/go-jose.v2/cipher
 gopkg.in/square/go-jose.v2/json
 gopkg.in/square/go-jose.v2/jwt
 # gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+## explicit
 gopkg.in/yaml.v3
-# stash.us.cray.com/HMS/hms-base v1.13.0
-## explicit
-stash.us.cray.com/HMS/hms-base
-# stash.us.cray.com/HMS/hms-certs v1.3.0
-stash.us.cray.com/HMS/hms-certs/pkg/hms_certs
-# stash.us.cray.com/HMS/hms-securestorage v1.12.0
-## explicit
-stash.us.cray.com/HMS/hms-securestorage
-# stash.us.cray.com/HMS/hms-sls v1.10.1
-## explicit
-stash.us.cray.com/HMS/hms-sls/pkg/sls-common
-# stash.us.cray.com/HMS/hms-smd v1.30.4
-## explicit
-stash.us.cray.com/HMS/hms-smd/pkg/redfish
-stash.us.cray.com/HMS/hms-smd/pkg/sm
